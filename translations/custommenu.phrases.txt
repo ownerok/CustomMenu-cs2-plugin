@@ -1,0 +1,39 @@
+"Phrases"
+{
+    "Prefix"
+    {
+        "en"    "[CustomMenu]"
+        "ru"    "[CustomMenu]"
+    }
+    
+    "DeathMessage"
+    {
+        "en"    " {DEFAULT} Type {RED} !openmeun {DEFAULT} to open menu"
+        "ru"    " {DEFAULT} Напишите {RED} !openmeun {DEFAULT} чтобы открыть меню"
+    }
+    
+    "RoundStartMessage"
+    {
+        "en"    " {DEFAULT} Type {RED} !openmeun{DEFAULT} to open menu"
+        "ru"    " {DEFAULT} Напишите {RED} !openmeun{DEFAULT} чтобы открыть меню"
+    }
+    
+    "MenuNotFound"
+    {
+        "en"    " {RED}Menu %s{RED} not found!"
+        "ru"    " {RED}Меню %s{RED} не найдено!"
+    }
+    
+    "ConfigReloaded"
+    {
+        "en"    " {GREEN}CustomMenu configuration reloaded successfully!"
+        "ru"    " {GREEN}Конфигурация CustomMenu успешно перезагружена!"
+    }
+    
+    "WelcomeMessage"
+    {
+        "en"    " {DEFAULT} Type {RED} !openmeun{DEFAULT} to open menu"
+        "ru"    " {DEFAULT} Напишите {RED} !openmeun{DEFAULT} чтобы открыть меню"
+    }
+    
+}
