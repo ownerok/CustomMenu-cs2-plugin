@@ -17,7 +17,7 @@
 
 ## Установка
 1. **Скачайте зависимости**  
-   [Utils](https://example.com](https://github.com/Pisex/cs2-menus)
+   [Utils](https://github.com/Pisex/cs2-menus)
 
 2. **Скачайте последний релиз плагина**  
    Перейдите на страницу релизов:  
