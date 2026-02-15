@@ -20,8 +20,7 @@
    [Utils](https://github.com/Pisex/cs2-menus)
 
 2. **Скачайте последний релиз плагина**  
-   Перейдите на страницу релизов:  
-   👉 [CustomMenu v1.0.0](https://github.com/ownerok/CustomMenu-cs2-plugin/releases/tag/v1.0.0)
+   [CustomMenu v1.0.0](https://github.com/ownerok/CustomMenu-cs2-plugin/releases/tag/v1.0.0)
 
 3. **Распакуйте архив**  
    Скопируйте содержимое архива в папку `addons` вашего сервера.  
