@@ -78,11 +78,11 @@ const char* CustomMenu_GetPhrase(const char* key)
     
     static std::map<std::string, std::string> fallbackPhrases = {
         {"Prefix", "{DEFAULT}[CustomMenu]"},
-        {"DeathMessage", "{DEFAULT}You died! Type {GREEN}!menuownerok{DEFAULT} to open menu"},
-        {"RoundStartMessage", "{GREEN}New round!{DEFAULT} Type {YELLOW}!menuownerok{DEFAULT} to open menu"},
+        {"DeathMessage", "{DEFAULT} Type {GREEN}!openmenu{DEFAULT} to open menu"},
+        {"RoundStartMessage", "{GREEN}New round!{DEFAULT} Type {YELLOW}!openmenu{DEFAULT} to open menu"},
         {"MenuNotFound", "{RED}Menu {YELLOW}%s{RED} not found!"},
         {"ConfigReloaded", "{GREEN}CustomMenu configuration reloaded successfully!"},
-        {"WelcomeMessage", "{LIGHT_GREEN}Welcome! Type {PINK}!menuownerok{LIGHT_GREEN} to open menu"}
+        {"WelcomeMessage", "{LIGHT_GREEN}Welcome! Type {PINK}!openmenu{LIGHT_GREEN} to open menu"}
     };
     
     auto fallback = fallbackPhrases.find(std::string(key));
@@ -414,7 +414,7 @@ void CustomMenu::AllPluginsLoaded() {
     utils->HookEvent(g_PLID, "round_start", OnRoundStart);
     utils->HookEvent(g_PLID, "round_end", OnRoundEnd);
     
-    utils->RegCommand(g_PLID, {"mm_openmenu"}, {"!openmeun"}, StartMenuOpen);
+    utils->RegCommand(g_PLID, {"mm_openmenu"}, {"!openmenu"}, StartMenuOpen);
     utils->StartupServer(g_PLID, StartupServer);
     LoadConfig();
     pluginLoaded = true;
