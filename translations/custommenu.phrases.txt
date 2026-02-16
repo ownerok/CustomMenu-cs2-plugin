@@ -8,14 +8,14 @@
     
     "DeathMessage"
     {
-        "en"    " {DEFAULT} Type {RED} !openmeun {DEFAULT} to open menu"
-        "ru"    " {DEFAULT} Напишите {RED} !openmeun {DEFAULT} чтобы открыть меню"
+        "en"    " {DEFAULT} Type {RED} !openmenu {DEFAULT} to open menu"
+        "ru"    " {DEFAULT} Напишите {RED} !openmenu {DEFAULT} чтобы открыть меню"
     }
     
     "RoundStartMessage"
     {
-        "en"    " {DEFAULT} Type {RED} !openmeun{DEFAULT} to open menu"
-        "ru"    " {DEFAULT} Напишите {RED} !openmeun{DEFAULT} чтобы открыть меню"
+        "en"    " {DEFAULT} Type {RED} !openmenu{DEFAULT} to open menu"
+        "ru"    " {DEFAULT} Напишите {RED} !openmenu{DEFAULT} чтобы открыть меню"
     }
     
     "MenuNotFound"
@@ -32,8 +32,8 @@
     
     "WelcomeMessage"
     {
-        "en"    " {DEFAULT} Type {RED} !openmeun{DEFAULT} to open menu"
-        "ru"    " {DEFAULT} Напишите {RED} !openmeun{DEFAULT} чтобы открыть меню"
+        "en"    " {DEFAULT} Type {RED} !openmenu{DEFAULT} to open menu"
+        "ru"    " {DEFAULT} Напишите {RED} !openmenu{DEFAULT} чтобы открыть меню"
     }
     
 }
